@@ -25,8 +25,12 @@ public class ObjectsInArray {
         s[1] = s2;
         s[2] = s3;
         
-        for(int i=0;i<s.length;i++){
-            System.out.println(s[i].name + " bearing roll number " + s[i].rollno + " got " + s[i].marks + " Marks.");
+        // for(int i=0;i<s.length;i++){
+        //     System.out.println(s[i].name + " bearing roll number " + s[i].rollno + " got " + s[i].marks + " Marks.");
+        // }
+
+        for(Students stud : s){
+            System.out.println(stud.name + ":" + stud.marks );
         }
 	}
 }
