@@ -1,16 +1,20 @@
 class A{
     public A(){
+        super();
         System.out.println("In default A");
     }
     public A(int n){
+        super();
         System.out.println("In parameterized A");
     }
 }
 class B extends A{
     public B(){
+        super();
         System.out.println("In default B");
     }
     public B(int n){
+        super(n);
         System.out.println("In parameterized B");
     }
 }
