@@ -15,5 +15,4 @@ public class FinalClass // extends Main  : here we can see error as we cannot ex
     }
 }
 // here class is being accessed by another class , child class has access to all the data.
-
 // what if we do not want the child class or any other class to get access to our data? then we can have final keyword for class as well. 
